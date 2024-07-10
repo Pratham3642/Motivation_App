@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- External stylesheet -->
+    <title>Motivational Quotes</title> <!-- Document title -->
+</head>
+<body>
+    <div class="container">
+        <h1>Motivational Quotes</h1> <!-- Main title -->
+        <form onsubmit="event.preventDefault(); gm();"> <!-- Form for fetching quotes -->
+            <input type="submit" value="Get Message" class="btn"/> <!-- Submit button -->
+        </form>
+        <hr><br> <!-- Divider and line break -->
+        <div id="quote">
+            <h2 id="msg"></h2> <!-- Quote text -->
+        </div>
+        <br> <!-- Line break -->
+        <div id="auth">
+            <h3 id="aut"></h3> <!-- Author text -->
+        </div>
+    </div>
+
+    <script src="Mot.js"></script> <!-- JavaScript file for fetching and displaying quotes -->
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif; /* Font family for the entire document */
+  background: linear-gradient(to right, #4caf50, #2196f3); /* Background gradient from green to blue */
+  color: #ffffff; /* Text color set to white */
+  display: flex; /* Flexbox to center content */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+/* Main container styles */
+.container {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 40px; /* Padding around the content */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+  text-align: center; /* Center align text inside container */
+  width: 50%; /* Container width */
+}
+
+/* Heading 1 styles */
+h1 {
+  font-size: 2.5em; /* Large font size for main title */
+  margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Heading 2 styles */
+h2 {
+  font-size: 1.2em; /* Medium font size for quote text */
+  margin: 10px 0; /* Top and bottom margin */
+}
+
+/* Heading 3 styles */
+h3 {
+  font-size: 1em; /* Small font size for author */
+}
+
+/* Form styles */
+form {
+  margin: 20px 0; /* Margin top and bottom */
+}
+
+/* Button styles */
+.btn {
+  background-color: #ffffff; /* Button background color */
+  color: #4caf50; /* Button text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1em; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+/* Button hover state */
+.btn:hover {
+  background-color: #7cb342; /* Button background color on hover */
+  color: #ffffff; /* Text color on hover */
+}
