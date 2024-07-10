@@ -13,7 +13,7 @@ This is a simple web application that fetches and displays motivational quotes f
 
 ## Features
 
-- **Random Quote Fetching**: Utilizes the `fetch()` function in JavaScript to retrieve random motivational quotes from the API Ninjas Quotes API.
+- **Random Quote Fetching**: Utilizes the `fetch()` function in JavaScript to retrieve random motivational quotes from the [API Ninjas Quotes API](https://api-ninjas.com/api/quotes).
 - **Display**: Dynamically updates the quote and its author (if available) on the webpage upon user interaction.
 - **Responsive Design**: Ensures a visually appealing and user-friendly experience across different devices with CSS styling.
 - **Colorful and Vibrant Background**: Designed to create a pleasing and uplifting user experience.
